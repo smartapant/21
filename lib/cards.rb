@@ -2,8 +2,8 @@ class Cards
   attr_reader :cards
 
   def initialize
-    @cards=[2,4,6,8,10]*4
-    @cards_number=20
+    @cards=[2,4,6,8,10]*4 #was too lazy to work with hashes, so thats is a working model of the cards
+    @cards_number=@cards.length
   end
 
   def give(player,number)

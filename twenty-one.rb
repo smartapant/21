@@ -23,4 +23,4 @@ players.each do |player|
   end
 end
 game.winner
-puts "#{game.winners.each {|winner| winner.name}} is a winner of the game with #{game.winners.each {|winner| winner.points}} points"
+puts "#{game.winners} - our winner(s)"
