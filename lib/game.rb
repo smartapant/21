@@ -5,6 +5,7 @@ class Game
     @over=false
     @winners = []
   end
+
   def winner
     number = 21
     pretendents = @players.select {|player| player.points<=21}
@@ -26,4 +27,5 @@ class Game
      end
     end
   end
+
 end

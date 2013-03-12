@@ -23,4 +23,4 @@ players.each do |player|
   end
 end
 game.winner
-puts "#{game.winners} - our winner(s)"
+puts "#{(game.winners)*', '} - our winner(s)"
